@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repository](https://github.com/DavidFayemi/Blog-preview-card)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://davidfayemi.github.io/Blog-preview-card/public/)
 
 ## My process
 
@@ -65,7 +65,7 @@ Users should be able to:
 </h1>
 ```
 
-## Author - Frontend Mentor -
+## Author - Frontend Mentor - DavidFayemi
 
 [@DavidFayemi](https://www.frontendmentor.io/profile/DavidFayemi)
 
