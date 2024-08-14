@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- display site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- Tailwind Utility Styles -->
+    <link rel="stylesheet" href="./styles/tailwind.css" />
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body class="text-secondary-950 text-base font-primary">
+    <div
+      class="bg-primary min-h-screen w-full flex items-center justify-center p-4"
+    >
+      <div
+        class="mx-auto bg-white shadow-primary rounded-2xl p-6 border border-black flex flex-col items-start"
+      >
+        <img
+          src="./assets/images/illustration-article.svg"
+          alt=""
+          class="rounded-xl mb-6"
+        />
+        <div
+          class="font-extrabold px-3 py-1 bg-primary rounded-md mb-3 text-sm"
+        >
+          Learning
+        </div>
+
+        <span class="text-secondary-500 text-sm"> 
+          Published 21 Dec 2023 
+        </span>
+        <h1
+          class="font-extrabold my-4 text-xl transition-colors hover:text-primary cursor-pointer"
+        >
+          HTML & CSS foundations
+        </h1>
+        <p class="text-secondary-500 mb-6 text-sm w-80">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="flex items-center">
+          <img
+            src="./assets/images/image-avatar.webp"
+            alt=""
+            class="w-10 mr-4"
+          />
+          <span class="font-extrabold text-sm">Greg Hooper</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
